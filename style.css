@@ -1,0 +1,28 @@
+@import url(https://fonts.googleapis.com/css?family=Bilbo+Swash+Caps);
+.container {
+  width: 70%;
+  height: 70%;
+  min-height: 300px;
+  box-shadow: 1px 1px 3px #333;
+  margin-top: 50px;
+  border-radius: 12px;
+  position: relative;
+  min-width: 320px;
+  #header {
+    border-bottom: 1px solid #ccc;
+    min-height: 40px;
+  }
+  #footer {
+    border-top: 1px solid #ccc;
+    min-height: 40px;
+  }
+  #main {}
+  #main h1 {
+    font-family: 'Bilbo Swash Caps', cursive;
+  }
+  #tweetUrl > a {
+    font-size: 20px;
+  }
+  #fbUrl a {
+    color: #45619D !important;
+  }
